@@ -125,7 +125,7 @@ function handleUTweets(){
 const tweet = document.getElementById("user-tweet")
 let firstUser =     {
     userName: "@Ömer Faruk GÜRBÜZ✅",
-    avatar: "/TwimbaExercise/images/Ben.jpg",
+    avatar: "./images/Ben.jpg",
     Post: tweet.value,
     likes: 248121,
     retweets: 34684,
@@ -135,25 +135,25 @@ let firstUser =     {
     uuid: uuidv4(),
     comment: [
         {
-            avatar: "/TwimbaExercise/images/İskenderBüyük.jpg",
+            avatar: "./images/İskenderBüyük.jpg",
             userName: "@İskender Büyük✅",
             Post: "Saygıdeğer abim özür dilerim ben ve arkadaşlar adına...",
             
         },
         {
-            avatar: "/TwimbaExercise/images/MematiBaş.jpg",
+            avatar: "./images/MematiBaş.jpg",
             userName: "@Memati Baş✅",
             Post: "Abim kusura bakma, Hata yaptıysak affola...",
             
         },
         {
-            avatar: "/TwimbaExercise/images/Polat Alemdar.webp",
+            avatar: "./images/Polat Alemdar.webp",
             userName: "@Polat Alemdar✅",
             Post: "Ömer Abim cansın, bizim eşşekliğimiz özür dileriz.",
             
         },
         {
-            avatar: "/TwimbaExercise/images/Ersoy Ulubey.jpg",
+            avatar: "./images/Ersoy Ulubey.jpg",
             userName: "@Ersoy Ulubey✅",
             Post: "Senin gibisi daha gelmedi abi, zor da bulunur... Affet bizi",
             
