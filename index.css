@@ -1,0 +1,119 @@
+/* Layout */
+h1{
+    color: #046cb2
+}
+textarea{
+    border: none;
+    resize: none;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #1DA1F2;
+    border: none;
+    font-size: 1.4em;
+    padding: 12px 0;
+    width: 100%;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid #44aef0;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #44aef0;
+}
+button:active{
+    background-color: white;
+    
+    color: #44aef0;
+    
+  
+}
+.real-world-tweets h3{
+    margin: 0;
+    font-size: 0.9em;
+    color: #868282;
+}
+i{
+    padding-right: 3px;
+}
+/* Classes */
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.logo1{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.container{
+    width: 350px;
+    margin: 0 auto;
+    
+}
+.fu-tweet-area{
+    display: flex;
+}
+
+.border-bottom{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #999999 ;
+}
+.real-world-tweets{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.real-world-tweets-one{
+    flex-basis: 80%;
+}
+.conditions {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+   
+}
+.cond-span{
+    font-size: 0.8em;
+}
+.icons{
+ display: flex ;
+ align-items: center;
+ 
+}
+.reply{
+    margin-top: 10px;
+    padding: 10px 0px 5px 0px;
+    border-top: 1px solid #999999;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.real-world-replys{
+    flex-basis: 75%;
+}
+.real-world-replys p{
+    margin: 8px;
+}
+.hidden{
+    display: none;
+}
+.liked{
+    color: red;
+}
+.retweeted{
+    color: green;
+}
+i:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
